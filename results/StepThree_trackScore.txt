@@ -1,0 +1,3740 @@
+C:\Users\Hadi\anaconda3\envs\Udacity_Lidar\python.exe C:\objectDetProject\loop_over_dataset.py 
+student task ID_S3_EX1-3
+using ResNet architecture with feature pyramid
+student task ID_S3_EX1-4
+Loaded weights from C:\objectDetProject\tools\objdet_models\resnet\pretrained\fpn_resnet_18_epoch_300.pth
+
+------------------------------
+processing frame #0
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+creating track no. 0
+creating track no. 1
+track 0 score = 0.16666666666666666
+track 1 score = 0.16666666666666666
+track 0 score = 0.16666666666666666
+track 1 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking000.png
+------------------------------
+processing frame #1
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 0.3333333333333333
+track 1 score = 0.3333333333333333
+track 0 score = 0.3333333333333333
+track 1 score = 0.3333333333333333
+Saving frame C:\objectDetProject\results\frameImages\tracking001.png
+------------------------------
+processing frame #2
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 0.5
+track 1 score = 0.5
+track 0 score = 0.5
+track 1 score = 0.5
+Saving frame C:\objectDetProject\results\frameImages\tracking002.png
+------------------------------
+processing frame #3
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 0.6666666666666666
+track 1 score = 0.6666666666666666
+track 0 score = 0.6666666666666666
+track 1 score = 0.6666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking003.png
+------------------------------
+processing frame #4
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 0.8333333333333333
+track 1 score = 0.8333333333333333
+track 0 score = 0.8333333333333333
+track 1 score = 0.8333333333333333
+Saving frame C:\objectDetProject\results\frameImages\tracking004.png
+------------------------------
+processing frame #5
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 0.9999999999999999
+track 1 score = 0.9999999999999999
+track 0 score = 0.9999999999999999
+track 1 score = 0.9999999999999999
+Saving frame C:\objectDetProject\results\frameImages\tracking005.png
+------------------------------
+processing frame #6
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking006.png
+------------------------------
+processing frame #7
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking007.png
+------------------------------
+processing frame #8
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking008.png
+------------------------------
+processing frame #9
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking009.png
+------------------------------
+processing frame #10
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+creating track no. 2
+track 0 score = 1
+track 1 score = 1
+track 2 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 2 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking010.png
+------------------------------
+processing frame #11
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 2
+update track 0 with lidar measurement 1
+update track 2 with lidar measurement 0
+track 0 score = 1
+track 1 score = 0.8333333333333334
+track 2 score = 0.3333333333333333
+track 0 score = 1
+track 1 score = 0.8333333333333334
+track 2 score = 0.3333333333333333
+Saving frame C:\objectDetProject\results\frameImages\tracking011.png
+------------------------------
+processing frame #12
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 2
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1.0
+track 2 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1.0
+track 2 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking012.png
+------------------------------
+processing frame #13
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 2
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+deleting track no. 2
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking013.png
+------------------------------
+processing frame #14
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking014.png
+------------------------------
+processing frame #15
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking015.png
+------------------------------
+processing frame #16
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking016.png
+------------------------------
+processing frame #17
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking017.png
+------------------------------
+processing frame #18
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking018.png
+------------------------------
+processing frame #19
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking019.png
+------------------------------
+processing frame #20
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking020.png
+------------------------------
+processing frame #21
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking021.png
+------------------------------
+processing frame #22
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking022.png
+------------------------------
+processing frame #23
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking023.png
+------------------------------
+processing frame #24
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking024.png
+------------------------------
+processing frame #25
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking025.png
+------------------------------
+processing frame #26
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+creating track no. 3
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking026.png
+------------------------------
+processing frame #27
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 3
+update track 0 with lidar measurement 1
+update track 3 with lidar measurement 2
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.3333333333333333
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.3333333333333333
+Saving frame C:\objectDetProject\results\frameImages\tracking027.png
+------------------------------
+processing frame #28
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 3
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+update track 3 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.5
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.5
+Saving frame C:\objectDetProject\results\frameImages\tracking028.png
+------------------------------
+processing frame #29
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 3
+update track 0 with lidar measurement 1
+update track 3 with lidar measurement 2
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.6666666666666666
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.6666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking029.png
+------------------------------
+processing frame #30
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 3
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.5
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.5
+Saving frame C:\objectDetProject\results\frameImages\tracking030.png
+------------------------------
+processing frame #31
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 3
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.33333333333333337
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.33333333333333337
+Saving frame C:\objectDetProject\results\frameImages\tracking031.png
+------------------------------
+processing frame #32
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 3
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.1666666666666667
+track 0 score = 1
+track 1 score = 1
+track 3 score = 0.1666666666666667
+Saving frame C:\objectDetProject\results\frameImages\tracking032.png
+------------------------------
+processing frame #33
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 3
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+deleting track no. 3
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking033.png
+------------------------------
+processing frame #34
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking034.png
+------------------------------
+processing frame #35
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking035.png
+------------------------------
+processing frame #36
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking036.png
+------------------------------
+processing frame #37
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking037.png
+------------------------------
+processing frame #38
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking038.png
+------------------------------
+processing frame #39
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking039.png
+------------------------------
+processing frame #40
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking040.png
+------------------------------
+processing frame #41
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking041.png
+------------------------------
+processing frame #42
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking042.png
+------------------------------
+processing frame #43
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking043.png
+------------------------------
+processing frame #44
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+creating track no. 4
+track 0 score = 1
+track 1 score = 1
+track 4 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 4 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking044.png
+------------------------------
+processing frame #45
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 4
+update track 0 with lidar measurement 0
+update track 4 with lidar measurement 2
+update track 1 with lidar measurement 1
+creating track no. 5
+track 0 score = 1
+track 1 score = 1
+track 4 score = 0.3333333333333333
+track 5 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 4 score = 0.3333333333333333
+track 5 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking045.png
+------------------------------
+processing frame #46
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 4
+predict track 5
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+update track 4 with lidar measurement 2
+deleting track no. 5
+track 0 score = 1
+track 1 score = 1
+track 4 score = 0.5
+track 0 score = 1
+track 1 score = 1
+track 4 score = 0.5
+Saving frame C:\objectDetProject\results\frameImages\tracking046.png
+------------------------------
+processing frame #47
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 4
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 4 score = 0.33333333333333337
+track 0 score = 1
+track 1 score = 1
+track 4 score = 0.33333333333333337
+Saving frame C:\objectDetProject\results\frameImages\tracking047.png
+------------------------------
+processing frame #48
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 4
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 4 score = 0.1666666666666667
+track 0 score = 1
+track 1 score = 1
+track 4 score = 0.1666666666666667
+Saving frame C:\objectDetProject\results\frameImages\tracking048.png
+------------------------------
+processing frame #49
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 4
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+deleting track no. 4
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking049.png
+------------------------------
+processing frame #50
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking050.png
+------------------------------
+processing frame #51
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking051.png
+------------------------------
+processing frame #52
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+creating track no. 6
+track 0 score = 1
+track 1 score = 1
+track 6 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 6 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking052.png
+------------------------------
+processing frame #53
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 6
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+deleting track no. 6
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking053.png
+------------------------------
+processing frame #54
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+creating track no. 7
+track 0 score = 1
+track 1 score = 1
+track 7 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 7 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking054.png
+------------------------------
+processing frame #55
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 7
+update track 7 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 7 score = 0.3333333333333333
+track 0 score = 1
+track 1 score = 1
+track 7 score = 0.3333333333333333
+Saving frame C:\objectDetProject\results\frameImages\tracking055.png
+------------------------------
+processing frame #56
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 7
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 7 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 7 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking056.png
+------------------------------
+processing frame #57
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 7
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+deleting track no. 7
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking057.png
+------------------------------
+processing frame #58
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking058.png
+------------------------------
+processing frame #59
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking059.png
+------------------------------
+processing frame #60
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking060.png
+------------------------------
+processing frame #61
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking061.png
+------------------------------
+processing frame #62
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking062.png
+------------------------------
+processing frame #63
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking063.png
+------------------------------
+processing frame #64
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking064.png
+------------------------------
+processing frame #65
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking065.png
+------------------------------
+processing frame #66
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking066.png
+------------------------------
+processing frame #67
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking067.png
+------------------------------
+processing frame #68
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking068.png
+------------------------------
+processing frame #69
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking069.png
+------------------------------
+processing frame #70
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking070.png
+------------------------------
+processing frame #71
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking071.png
+------------------------------
+processing frame #72
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking072.png
+------------------------------
+processing frame #73
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking073.png
+------------------------------
+processing frame #74
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking074.png
+------------------------------
+processing frame #75
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking075.png
+------------------------------
+processing frame #76
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking076.png
+------------------------------
+processing frame #77
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking077.png
+------------------------------
+processing frame #78
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking078.png
+------------------------------
+processing frame #79
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking079.png
+------------------------------
+processing frame #80
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking080.png
+------------------------------
+processing frame #81
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking081.png
+------------------------------
+processing frame #82
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking082.png
+------------------------------
+processing frame #83
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking083.png
+------------------------------
+processing frame #84
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking084.png
+------------------------------
+processing frame #85
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+creating track no. 8
+track 0 score = 1
+track 1 score = 1
+track 8 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 8 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking085.png
+------------------------------
+processing frame #86
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 8
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+deleting track no. 8
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking086.png
+------------------------------
+processing frame #87
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking087.png
+------------------------------
+processing frame #88
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+creating track no. 9
+track 0 score = 1
+track 1 score = 1
+track 9 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 9 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking088.png
+------------------------------
+processing frame #89
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 9
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+deleting track no. 9
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking089.png
+------------------------------
+processing frame #90
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking090.png
+------------------------------
+processing frame #91
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 0 score = 1
+track 1 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking091.png
+------------------------------
+processing frame #92
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+creating track no. 10
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking092.png
+------------------------------
+processing frame #93
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.3333333333333333
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.3333333333333333
+Saving frame C:\objectDetProject\results\frameImages\tracking093.png
+------------------------------
+processing frame #94
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking094.png
+------------------------------
+processing frame #95
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.3333333333333333
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.3333333333333333
+Saving frame C:\objectDetProject\results\frameImages\tracking095.png
+------------------------------
+processing frame #96
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.5
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.5
+Saving frame C:\objectDetProject\results\frameImages\tracking096.png
+------------------------------
+processing frame #97
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+update track 10 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.6666666666666666
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.6666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking097.png
+------------------------------
+processing frame #98
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.8333333333333333
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.8333333333333333
+Saving frame C:\objectDetProject\results\frameImages\tracking098.png
+------------------------------
+processing frame #99
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.9999999999999999
+track 0 score = 1
+track 1 score = 1
+track 10 score = 0.9999999999999999
+Saving frame C:\objectDetProject\results\frameImages\tracking099.png
+------------------------------
+processing frame #100
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking100.png
+------------------------------
+processing frame #101
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking101.png
+------------------------------
+processing frame #102
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking102.png
+------------------------------
+processing frame #103
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking103.png
+------------------------------
+processing frame #104
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking104.png
+------------------------------
+processing frame #105
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking105.png
+------------------------------
+processing frame #106
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking106.png
+------------------------------
+processing frame #107
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking107.png
+------------------------------
+processing frame #108
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking108.png
+------------------------------
+processing frame #109
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking109.png
+------------------------------
+processing frame #110
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking110.png
+------------------------------
+processing frame #111
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking111.png
+------------------------------
+processing frame #112
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking112.png
+------------------------------
+processing frame #113
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking113.png
+------------------------------
+processing frame #114
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking114.png
+------------------------------
+processing frame #115
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking115.png
+------------------------------
+processing frame #116
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking116.png
+------------------------------
+processing frame #117
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 1
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking117.png
+------------------------------
+processing frame #118
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 1
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking118.png
+------------------------------
+processing frame #119
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking119.png
+------------------------------
+processing frame #120
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking120.png
+------------------------------
+processing frame #121
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking121.png
+------------------------------
+processing frame #122
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking122.png
+------------------------------
+processing frame #123
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking123.png
+------------------------------
+processing frame #124
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking124.png
+------------------------------
+processing frame #125
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking125.png
+------------------------------
+processing frame #126
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking126.png
+------------------------------
+processing frame #127
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking127.png
+------------------------------
+processing frame #128
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking128.png
+------------------------------
+processing frame #129
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking129.png
+------------------------------
+processing frame #130
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking130.png
+------------------------------
+processing frame #131
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking131.png
+------------------------------
+processing frame #132
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 0
+creating track no. 11
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 11 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 11 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking132.png
+------------------------------
+processing frame #133
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+predict track 11
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 10 with lidar measurement 0
+deleting track no. 11
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking133.png
+------------------------------
+processing frame #134
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+update track 10 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking134.png
+------------------------------
+processing frame #135
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+creating track no. 12
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 12 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 12 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking135.png
+------------------------------
+processing frame #136
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+predict track 12
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+deleting track no. 12
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking136.png
+------------------------------
+processing frame #137
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking137.png
+------------------------------
+processing frame #138
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking138.png
+------------------------------
+processing frame #139
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking139.png
+------------------------------
+processing frame #140
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking140.png
+------------------------------
+processing frame #141
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 10 with lidar measurement 0
+creating track no. 13
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 13 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 13 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking141.png
+------------------------------
+processing frame #142
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+predict track 13
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+deleting track no. 13
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking142.png
+------------------------------
+processing frame #143
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+creating track no. 14
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 14 score = 0.16666666666666666
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 14 score = 0.16666666666666666
+Saving frame C:\objectDetProject\results\frameImages\tracking143.png
+------------------------------
+processing frame #144
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+predict track 14
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 2
+update track 1 with lidar measurement 3
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 14 score = 0.3333333333333333
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 14 score = 0.3333333333333333
+Saving frame C:\objectDetProject\results\frameImages\tracking144.png
+------------------------------
+processing frame #145
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+predict track 14
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 3
+update track 10 with lidar measurement 1
+update track 14 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 14 score = 0.5
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 14 score = 0.5
+Saving frame C:\objectDetProject\results\frameImages\tracking145.png
+------------------------------
+processing frame #146
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+predict track 14
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 14 score = 0.33333333333333337
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 14 score = 0.33333333333333337
+Saving frame C:\objectDetProject\results\frameImages\tracking146.png
+------------------------------
+processing frame #147
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+predict track 14
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 14 score = 0.1666666666666667
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 14 score = 0.1666666666666667
+Saving frame C:\objectDetProject\results\frameImages\tracking147.png
+------------------------------
+processing frame #148
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+predict track 14
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+update track 10 with lidar measurement 2
+deleting track no. 14
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking148.png
+------------------------------
+processing frame #149
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 1
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking149.png
+------------------------------
+processing frame #150
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking150.png
+------------------------------
+processing frame #151
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking151.png
+------------------------------
+processing frame #152
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 0
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking152.png
+------------------------------
+processing frame #153
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 0
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking153.png
+------------------------------
+processing frame #154
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking154.png
+------------------------------
+processing frame #155
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking155.png
+------------------------------
+processing frame #156
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking156.png
+------------------------------
+processing frame #157
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking157.png
+------------------------------
+processing frame #158
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking158.png
+------------------------------
+processing frame #159
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking159.png
+------------------------------
+processing frame #160
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking160.png
+------------------------------
+processing frame #161
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking161.png
+------------------------------
+processing frame #162
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking162.png
+------------------------------
+processing frame #163
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking163.png
+------------------------------
+processing frame #164
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking164.png
+------------------------------
+processing frame #165
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking165.png
+------------------------------
+processing frame #166
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking166.png
+------------------------------
+processing frame #167
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking167.png
+------------------------------
+processing frame #168
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking168.png
+------------------------------
+processing frame #169
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking169.png
+------------------------------
+processing frame #170
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking170.png
+------------------------------
+processing frame #171
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking171.png
+------------------------------
+processing frame #172
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking172.png
+------------------------------
+processing frame #173
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking173.png
+------------------------------
+processing frame #174
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking174.png
+------------------------------
+processing frame #175
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking175.png
+------------------------------
+processing frame #176
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 10 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking176.png
+------------------------------
+processing frame #177
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking177.png
+------------------------------
+processing frame #178
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking178.png
+------------------------------
+processing frame #179
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking179.png
+------------------------------
+processing frame #180
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+update track 10 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking180.png
+------------------------------
+processing frame #181
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+update track 10 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking181.png
+------------------------------
+processing frame #182
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking182.png
+------------------------------
+processing frame #183
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking183.png
+------------------------------
+processing frame #184
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking184.png
+------------------------------
+processing frame #185
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking185.png
+------------------------------
+processing frame #186
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking186.png
+------------------------------
+processing frame #187
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking187.png
+------------------------------
+processing frame #188
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 10 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking188.png
+------------------------------
+processing frame #189
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+update track 10 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking189.png
+------------------------------
+processing frame #190
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 0
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking190.png
+------------------------------
+processing frame #191
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking191.png
+------------------------------
+processing frame #192
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 10 with lidar measurement 2
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking192.png
+------------------------------
+processing frame #193
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 10 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking193.png
+------------------------------
+processing frame #194
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking194.png
+------------------------------
+processing frame #195
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking195.png
+------------------------------
+processing frame #196
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 0
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking196.png
+------------------------------
+processing frame #197
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 1
+update track 10 with lidar measurement 2
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking197.png
+------------------------------
+processing frame #198
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 0 with lidar measurement 2
+update track 10 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+track 0 score = 1
+track 1 score = 1
+track 10 score = 1
+Saving frame C:\objectDetProject\results\frameImages\tracking198.png
+StopIteration has been raised
+
+
+Process finished with exit code 0
