@@ -37,4 +37,22 @@ The results is shown below as an image of the RMSE values and as a video file be
 
 
 <img src="results/StepThree_RMSE.png"/>
+
+The video is shown as a icon below. Due to size restrictions it cannot be displayed. Please click the icon and download to view it.
+
 <img src="results/Step_Three_my_tracking_results.avi"/>
+
+### Step Three. Implement the Measurement Module
+
+The implementation of the file student\measurement.py functions followed the lectures and the excercise homework as a template:
+
+The function 'fov' followed the lesson-4-MTT as a template
+The function 'get_hx' followed the lesson-3-EKF file meanurment.py as a template
+x
+The results is shown below as an image of the RMSE values and as a video file below:
+
+<img src="results/StepFour_RMSE.png"/>
+
+The video is shown as a icon below. Due to size restrictions it cannot be displayed. Please click the icon and download to view it.
+
+<img src="results/StepFour_my_tracking_results.avi"/>
