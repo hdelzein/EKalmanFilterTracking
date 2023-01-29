@@ -146,7 +146,9 @@ class Trackmanagement:
                         delList.append(track)
                     elif (track.score < params.delete_threshold and track.state == 'confirmed'):
                         delList.append(track)
-                    elif (track.state != 'confirmed') and (track.score < 1./params.window):
+                    elif (track.state != 'confirmed') and (track.score <= 1./params.window):
+                        delList.append(track)
+                    elif (track.state == 'tentative') and (track.score <= 0.33333333333333337):
                         delList.append(track)
                     else:
                         pass
