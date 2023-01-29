@@ -1,9 +1,11 @@
-C:\Users\Hadi\anaconda3\envs\Udacity_Lidar\python.exe C:\objectDetProject\loop_over_dataset.py 
+C:\Users\Hadi\anaconda3\envs\Udacity_Lidar\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/plugins/python-ce/helpers/pydev/pydevd.py" --multiprocess --qt-support=auto --client 127.0.0.1 --port 52636 --file C:\objectDetProject\loop_over_dataset.py 
+Connected to pydev debugger (build 222.4459.20)
 student task ID_S3_EX1-3
 using ResNet architecture with feature pyramid
 student task ID_S3_EX1-4
 Loaded weights from C:\objectDetProject\tools\objdet_models\resnet\pretrained\fpn_resnet_18_epoch_300.pth
 
+Backend WXAgg is interactive backend. Turning interactive mode on.
 ------------------------------
 processing frame #0
 loading lidar point-cloud from result file
@@ -13,12 +15,12 @@ loading object labels and validation from result file
 loading detection performance measures from file
 creating track no. 0
 creating track no. 1
-track 0 score = 0.16666666666666666
-track 1 score = 0.16666666666666666
+track 0 score = 0.16666666666666666 State initialized
+track 1 score = 0.16666666666666666 State initialized
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 0.3333333333333333
-track 1 score = 0.3333333333333333
+track 0 score = 0.3333333333333333 State tentative
+track 1 score = 0.3333333333333333 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking000.png
 ------------------------------
 processing frame #1
@@ -31,12 +33,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 1
-track 0 score = 0.5
-track 1 score = 0.5
+track 0 score = 0.5 State tentative
+track 1 score = 0.5 State tentative
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 0.6666666666666666
-track 1 score = 0.6666666666666666
+track 0 score = 0.6666666666666666 State tentative
+track 1 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking001.png
 ------------------------------
 processing frame #2
@@ -49,12 +51,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 0.8333333333333333
-track 1 score = 0.8333333333333333
+track 0 score = 0.8333333333333333 State confirmed
+track 1 score = 0.8333333333333333 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 0.9999999999999999
-track 1 score = 0.9999999999999999
+track 0 score = 0.9999999999999999 State confirmed
+track 1 score = 0.9999999999999999 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking002.png
 ------------------------------
 processing frame #3
@@ -67,12 +69,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking003.png
 ------------------------------
 processing frame #4
@@ -85,12 +87,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking004.png
 ------------------------------
 processing frame #5
@@ -103,12 +105,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking005.png
 ------------------------------
 processing frame #6
@@ -121,12 +123,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking006.png
 ------------------------------
 processing frame #7
@@ -139,12 +141,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking007.png
 ------------------------------
 processing frame #8
@@ -157,12 +159,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking008.png
 ------------------------------
 processing frame #9
@@ -175,12 +177,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking009.png
 ------------------------------
 processing frame #10
@@ -194,15 +196,15 @@ predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
 creating track no. 2
-track 0 score = 1
-track 1 score = 1
-track 2 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 2 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
 ---no more associations---
 deleting track no. 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking010.png
 ------------------------------
 processing frame #11
@@ -215,12 +217,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking011.png
 ------------------------------
 processing frame #12
@@ -233,12 +235,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 2
 update track 1 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking012.png
 ------------------------------
 processing frame #13
@@ -251,12 +253,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 2
 update track 1 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking013.png
 ------------------------------
 processing frame #14
@@ -269,12 +271,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking014.png
 ------------------------------
 processing frame #15
@@ -287,12 +289,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 2
 update track 1 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking015.png
 ------------------------------
 processing frame #16
@@ -305,12 +307,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking016.png
 ------------------------------
 processing frame #17
@@ -323,12 +325,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking017.png
 ------------------------------
 processing frame #18
@@ -341,12 +343,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking018.png
 ------------------------------
 processing frame #19
@@ -359,12 +361,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking019.png
 ------------------------------
 processing frame #20
@@ -377,12 +379,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking020.png
 ------------------------------
 processing frame #21
@@ -395,12 +397,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking021.png
 ------------------------------
 processing frame #22
@@ -413,12 +415,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 2
 update track 1 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking022.png
 ------------------------------
 processing frame #23
@@ -431,12 +433,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking023.png
 ------------------------------
 processing frame #24
@@ -449,12 +451,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking024.png
 ------------------------------
 processing frame #25
@@ -467,12 +469,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking025.png
 ------------------------------
 processing frame #26
@@ -486,15 +488,15 @@ predict track 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
 creating track no. 3
-track 0 score = 1
-track 1 score = 1
-track 3 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 3 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
 ---no more associations---
 deleting track no. 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking026.png
 ------------------------------
 processing frame #27
@@ -508,15 +510,15 @@ predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
 creating track no. 4
-track 0 score = 1
-track 1 score = 1
-track 4 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 4 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
 ---no more associations---
 deleting track no. 4
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking027.png
 ------------------------------
 processing frame #28
@@ -530,15 +532,15 @@ predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
 creating track no. 5
-track 0 score = 1
-track 1 score = 1
-track 5 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 5 score = 0.16666666666666666 State initialized
 update track 0 with camera measurement 2
 update track 1 with camera measurement 3
 ---no more associations---
 deleting track no. 5
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking028.png
 ------------------------------
 processing frame #29
@@ -552,15 +554,15 @@ predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
 creating track no. 6
-track 0 score = 1
-track 1 score = 1
-track 6 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 6 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
 ---no more associations---
 deleting track no. 6
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking029.png
 ------------------------------
 processing frame #30
@@ -573,12 +575,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking030.png
 ------------------------------
 processing frame #31
@@ -591,12 +593,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking031.png
 ------------------------------
 processing frame #32
@@ -609,12 +611,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking032.png
 ------------------------------
 processing frame #33
@@ -627,12 +629,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking033.png
 ------------------------------
 processing frame #34
@@ -645,12 +647,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 2
 update track 1 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking034.png
 ------------------------------
 processing frame #35
@@ -663,12 +665,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 3
 update track 0 with camera measurement 2
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking035.png
 ------------------------------
 processing frame #36
@@ -681,12 +683,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 2
 update track 1 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking036.png
 ------------------------------
 processing frame #37
@@ -699,12 +701,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking037.png
 ------------------------------
 processing frame #38
@@ -717,12 +719,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking038.png
 ------------------------------
 processing frame #39
@@ -735,12 +737,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking039.png
 ------------------------------
 processing frame #40
@@ -753,12 +755,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking040.png
 ------------------------------
 processing frame #41
@@ -771,12 +773,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking041.png
 ------------------------------
 processing frame #42
@@ -789,12 +791,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking042.png
 ------------------------------
 processing frame #43
@@ -807,12 +809,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking043.png
 ------------------------------
 processing frame #44
@@ -826,15 +828,15 @@ predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
 creating track no. 7
-track 0 score = 1
-track 1 score = 1
-track 7 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 7 score = 0.16666666666666666 State initialized
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
 ---no more associations---
 deleting track no. 7
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking044.png
 ------------------------------
 processing frame #45
@@ -849,18 +851,18 @@ update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
 creating track no. 8
 creating track no. 9
-track 0 score = 1
-track 1 score = 1
-track 8 score = 0.16666666666666666
-track 9 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 8 score = 0.16666666666666666 State initialized
+track 9 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 4
 update track 9 with camera measurement 0
 update track 0 with camera measurement 3
 ---no more associations---
 deleting track no. 8
-track 0 score = 1
-track 1 score = 1
-track 9 score = 0.3333333333333333
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 9 score = 0.3333333333333333 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking045.png
 ------------------------------
 processing frame #46
@@ -875,15 +877,15 @@ predict track 9
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
 update track 9 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 9 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 9 score = 0.5 State tentative
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 9 score = 0.33333333333333337
+deleting track no. 9
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking046.png
 ------------------------------
 processing frame #47
@@ -894,18 +896,14 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 9
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 9 score = 0.1666666666666667
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
----no more associations---
-track 0 score = 1
-track 1 score = 1
-track 9 score = 0.1666666666666667
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking047.png
 ------------------------------
 processing frame #48
@@ -916,16 +914,14 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 9
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-deleting track no. 9
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking048.png
 ------------------------------
 processing frame #49
@@ -938,12 +934,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking049.png
 ------------------------------
 processing frame #50
@@ -956,12 +952,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking050.png
 ------------------------------
 processing frame #51
@@ -974,12 +970,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking051.png
 ------------------------------
 processing frame #52
@@ -993,15 +989,15 @@ predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
 creating track no. 10
-track 0 score = 1
-track 1 score = 1
-track 10 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 10 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 4
 update track 10 with camera measurement 0
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 10 score = 0.3333333333333333
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 10 score = 0.3333333333333333 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking052.png
 ------------------------------
 processing frame #53
@@ -1016,12 +1012,12 @@ predict track 10
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
 deleting track no. 10
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking053.png
 ------------------------------
 processing frame #54
@@ -1035,15 +1031,15 @@ predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
 creating track no. 11
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 4
 update track 11 with camera measurement 0
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.3333333333333333
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.3333333333333333 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking054.png
 ------------------------------
 processing frame #55
@@ -1058,15 +1054,15 @@ predict track 11
 update track 11 with lidar measurement 2
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
 update track 11 with camera measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking055.png
 ------------------------------
 processing frame #56
@@ -1080,15 +1076,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 11 with camera measurement 0
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking056.png
 ------------------------------
 processing frame #57
@@ -1102,15 +1098,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
 update track 11 with camera measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking057.png
 ------------------------------
 processing frame #58
@@ -1124,15 +1120,15 @@ predict track 1
 predict track 11
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 11 with camera measurement 0
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking058.png
 ------------------------------
 processing frame #59
@@ -1146,15 +1142,15 @@ predict track 1
 predict track 11
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 1 with camera measurement 4
 update track 11 with camera measurement 0
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking059.png
 ------------------------------
 processing frame #60
@@ -1168,15 +1164,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 11 with camera measurement 0
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking060.png
 ------------------------------
 processing frame #61
@@ -1190,15 +1186,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 11 with camera measurement 0
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking061.png
 ------------------------------
 processing frame #62
@@ -1212,15 +1208,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 11 with camera measurement 0
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking062.png
 ------------------------------
 processing frame #63
@@ -1234,15 +1230,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 11 with camera measurement 0
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking063.png
 ------------------------------
 processing frame #64
@@ -1256,15 +1252,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 11 with camera measurement 0
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking064.png
 ------------------------------
 processing frame #65
@@ -1278,15 +1274,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 0 with camera measurement 3
 update track 11 with camera measurement 0
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking065.png
 ------------------------------
 processing frame #66
@@ -1300,15 +1296,15 @@ predict track 1
 predict track 11
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 1 with camera measurement 4
 update track 11 with camera measurement 0
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking066.png
 ------------------------------
 processing frame #67
@@ -1322,15 +1318,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 1 with camera measurement 4
 update track 11 with camera measurement 0
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking067.png
 ------------------------------
 processing frame #68
@@ -1344,15 +1340,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 0 with camera measurement 3
 update track 11 with camera measurement 0
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking068.png
 ------------------------------
 processing frame #69
@@ -1366,15 +1362,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 11 with camera measurement 0
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking069.png
 ------------------------------
 processing frame #70
@@ -1388,15 +1384,15 @@ predict track 1
 predict track 11
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.5 State tentative
 update track 0 with camera measurement 3
 update track 11 with camera measurement 0
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 11 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 11 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking070.png
 ------------------------------
 processing frame #71
@@ -1411,12 +1407,12 @@ predict track 11
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 1
 deleting track no. 11
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 ---no more associations---
-track 0 score = 0.8333333333333334
-track 1 score = 1
+track 0 score = 0.8333333333333334 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking071.png
 ------------------------------
 processing frame #72
@@ -1429,12 +1425,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1.0
-track 1 score = 1
+track 0 score = 1.0 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking072.png
 ------------------------------
 processing frame #73
@@ -1447,12 +1443,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking073.png
 ------------------------------
 processing frame #74
@@ -1465,12 +1461,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking074.png
 ------------------------------
 processing frame #75
@@ -1483,12 +1479,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking075.png
 ------------------------------
 processing frame #76
@@ -1501,12 +1497,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking076.png
 ------------------------------
 processing frame #77
@@ -1519,12 +1515,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking077.png
 ------------------------------
 processing frame #78
@@ -1537,12 +1533,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking078.png
 ------------------------------
 processing frame #79
@@ -1555,12 +1551,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking079.png
 ------------------------------
 processing frame #80
@@ -1573,12 +1569,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking080.png
 ------------------------------
 processing frame #81
@@ -1591,12 +1587,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 ---no more associations---
-track 0 score = 0.8333333333333334
-track 1 score = 1
+track 0 score = 0.8333333333333334 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking081.png
 ------------------------------
 processing frame #82
@@ -1609,12 +1605,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1.0
-track 1 score = 1
+track 0 score = 1.0 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking082.png
 ------------------------------
 processing frame #83
@@ -1627,12 +1623,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 ---no more associations---
-track 0 score = 0.8333333333333334
-track 1 score = 1
+track 0 score = 0.8333333333333334 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking083.png
 ------------------------------
 processing frame #84
@@ -1645,12 +1641,12 @@ predict track 0
 predict track 1
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1.0
-track 1 score = 1
+track 0 score = 1.0 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking084.png
 ------------------------------
 processing frame #85
@@ -1664,15 +1660,15 @@ predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
 creating track no. 12
-track 0 score = 1
-track 1 score = 1
-track 12 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 12 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 12 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 12 score = 0.16666666666666666 State initialized
 Saving frame C:\objectDetProject\results\frameImages\tracking085.png
 ------------------------------
 processing frame #86
@@ -1687,12 +1683,12 @@ predict track 12
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
 deleting track no. 12
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking086.png
 ------------------------------
 processing frame #87
@@ -1705,12 +1701,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking087.png
 ------------------------------
 processing frame #88
@@ -1724,15 +1720,15 @@ predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
 creating track no. 13
-track 0 score = 1
-track 1 score = 1
-track 13 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 13 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 13 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 13 score = 0.16666666666666666 State initialized
 Saving frame C:\objectDetProject\results\frameImages\tracking088.png
 ------------------------------
 processing frame #89
@@ -1747,12 +1743,12 @@ predict track 13
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
 deleting track no. 13
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking089.png
 ------------------------------
 processing frame #90
@@ -1765,12 +1761,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking090.png
 ------------------------------
 processing frame #91
@@ -1783,12 +1779,12 @@ predict track 0
 predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking091.png
 ------------------------------
 processing frame #92
@@ -1802,14 +1798,14 @@ predict track 1
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
 creating track no. 14
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.16666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 14 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 4
 ---no more associations---
-track 0 score = 0.8333333333333334
-track 1 score = 1
-track 14 score = 0.16666666666666666
+track 0 score = 0.8333333333333334 State confirmed
+track 1 score = 1 State confirmed
+track 14 score = 0.16666666666666666 State initialized
 Saving frame C:\objectDetProject\results\frameImages\tracking092.png
 ------------------------------
 processing frame #93
@@ -1824,15 +1820,15 @@ predict track 14
 update track 14 with lidar measurement 2
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 1
-track 0 score = 1.0
-track 1 score = 1
-track 14 score = 0.3333333333333333
+track 0 score = 1.0 State confirmed
+track 1 score = 1 State confirmed
+track 14 score = 0.3333333333333333 State tentative
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.3333333333333333
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 14 score = 0.3333333333333333 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking093.png
 ------------------------------
 processing frame #94
@@ -1846,14 +1842,13 @@ predict track 1
 predict track 14
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.16666666666666666
+deleting track no. 14
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
 update track 1 with camera measurement 4
 ---no more associations---
-track 0 score = 0.8333333333333334
-track 1 score = 1
-track 14 score = 0.16666666666666666
+track 0 score = 0.8333333333333334 State confirmed
+track 1 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking094.png
 ------------------------------
 processing frame #95
@@ -1864,18 +1859,17 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 2
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1.0
-track 1 score = 1
-track 14 score = 0.3333333333333333
+creating track no. 15
+track 0 score = 1.0 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 4
 ---no more associations---
-track 0 score = 0.8333333333333334
-track 1 score = 1
-track 14 score = 0.3333333333333333
+track 0 score = 0.8333333333333334 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.16666666666666666 State initialized
 Saving frame C:\objectDetProject\results\frameImages\tracking095.png
 ------------------------------
 processing frame #96
@@ -1886,19 +1880,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 2
-track 0 score = 1.0
-track 1 score = 1
-track 14 score = 0.5
+track 0 score = 1.0 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.3333333333333333 State tentative
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.3333333333333333 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking096.png
 ------------------------------
 processing frame #97
@@ -1909,19 +1903,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 2
+predict track 15
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.5 State tentative
 update track 1 with camera measurement 4
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.6666666666666666
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.5 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking097.png
 ------------------------------
 processing frame #98
@@ -1932,19 +1926,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 2
+predict track 15
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.8333333333333333
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.6666666666666666 State tentative
 update track 0 with camera measurement 3
 update track 1 with camera measurement 4
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.8333333333333333
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.6666666666666666 State tentative
 Saving frame C:\objectDetProject\results\frameImages\tracking098.png
 ------------------------------
 processing frame #99
@@ -1955,19 +1949,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
-update track 14 with lidar measurement 2
+update track 15 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.9999999999999999
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.8333333333333333 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.9999999999999999
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.8333333333333333 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking099.png
 ------------------------------
 processing frame #100
@@ -1978,19 +1972,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.9999999999999999 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.9999999999999999 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking100.png
 ------------------------------
 processing frame #101
@@ -2001,19 +1995,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking101.png
 ------------------------------
 processing frame #102
@@ -2024,19 +2018,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking102.png
 ------------------------------
 processing frame #103
@@ -2047,19 +2041,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking103.png
 ------------------------------
 processing frame #104
@@ -2070,19 +2064,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking104.png
 ------------------------------
 processing frame #105
@@ -2093,19 +2087,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking105.png
 ------------------------------
 processing frame #106
@@ -2116,19 +2110,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking106.png
 ------------------------------
 processing frame #107
@@ -2139,19 +2133,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking107.png
 ------------------------------
 processing frame #108
@@ -2162,19 +2156,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking108.png
 ------------------------------
 processing frame #109
@@ -2185,19 +2179,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking109.png
 ------------------------------
 processing frame #110
@@ -2208,19 +2202,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking110.png
 ------------------------------
 processing frame #111
@@ -2231,19 +2225,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking111.png
 ------------------------------
 processing frame #112
@@ -2254,19 +2248,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking112.png
 ------------------------------
 processing frame #113
@@ -2277,19 +2271,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking113.png
 ------------------------------
 processing frame #114
@@ -2300,19 +2294,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking114.png
 ------------------------------
 processing frame #115
@@ -2323,19 +2317,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking115.png
 ------------------------------
 processing frame #116
@@ -2346,19 +2340,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 2
+predict track 15
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking116.png
 ------------------------------
 processing frame #117
@@ -2369,18 +2363,18 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 2
+predict track 15
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking117.png
 ------------------------------
 processing frame #118
@@ -2391,18 +2385,18 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 2
+predict track 15
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking118.png
 ------------------------------
 processing frame #119
@@ -2413,18 +2407,18 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking119.png
 ------------------------------
 processing frame #120
@@ -2435,18 +2429,18 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking120.png
 ------------------------------
 processing frame #121
@@ -2457,18 +2451,18 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 0
+update track 15 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking121.png
 ------------------------------
 processing frame #122
@@ -2479,18 +2473,18 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking122.png
 ------------------------------
 processing frame #123
@@ -2501,18 +2495,18 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking123.png
 ------------------------------
 processing frame #124
@@ -2523,19 +2517,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
-update track 14 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 4
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking124.png
 ------------------------------
 processing frame #125
@@ -2546,19 +2540,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
-update track 14 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 4
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking125.png
 ------------------------------
 processing frame #126
@@ -2569,19 +2563,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 4
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 4
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking126.png
 ------------------------------
 processing frame #127
@@ -2592,19 +2586,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 1
-update track 14 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 0
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
-update track 14 with camera measurement 4
+update track 15 with camera measurement 4
 update track 1 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking127.png
 ------------------------------
 processing frame #128
@@ -2615,19 +2609,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 2
 update track 1 with lidar measurement 1
-update track 14 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 0
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
-update track 14 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 4
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking128.png
 ------------------------------
 processing frame #129
@@ -2638,19 +2632,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 2
-update track 14 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 0
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
-update track 14 with camera measurement 4
+update track 15 with camera measurement 4
 update track 1 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking129.png
 ------------------------------
 processing frame #130
@@ -2661,19 +2655,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 2
 update track 1 with lidar measurement 0
-update track 14 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
-update track 14 with camera measurement 4
+update track 15 with camera measurement 4
 update track 0 with camera measurement 3
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking130.png
 ------------------------------
 processing frame #131
@@ -2684,19 +2678,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 0
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
 ---no more associations---
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.8333333333333334
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.8333333333333334 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking131.png
 ------------------------------
 processing frame #132
@@ -2707,22 +2701,22 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 2
-creating track no. 15
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1.0
-track 15 score = 0.16666666666666666
+creating track no. 16
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1.0 State confirmed
+track 16 score = 0.16666666666666666 State initialized
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
 ---no more associations---
-deleting track no. 15
-track 0 score = 1
-track 1 score = 1
-track 14 score = 0.8333333333333334
+deleting track no. 16
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 0.8333333333333334 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking132.png
 ------------------------------
 processing frame #133
@@ -2733,19 +2727,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1.0
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1.0 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
-update track 14 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 4
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking133.png
 ------------------------------
 processing frame #134
@@ -2756,19 +2750,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
-update track 14 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 4
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking134.png
 ------------------------------
 processing frame #135
@@ -2779,23 +2773,23 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 1
-creating track no. 16
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-track 16 score = 0.16666666666666666
+update track 15 with lidar measurement 1
+creating track no. 17
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+track 17 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
-update track 14 with camera measurement 4
+update track 15 with camera measurement 4
 ---no more associations---
-deleting track no. 16
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+deleting track no. 17
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking135.png
 ------------------------------
 processing frame #136
@@ -2806,19 +2800,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 5
 update track 0 with camera measurement 3
-update track 14 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 4
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking136.png
 ------------------------------
 processing frame #137
@@ -2829,19 +2823,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 3
 update track 1 with camera measurement 5
-update track 14 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 4
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking137.png
 ------------------------------
 processing frame #138
@@ -2852,19 +2846,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking138.png
 ------------------------------
 processing frame #139
@@ -2875,19 +2869,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 1
-update track 14 with lidar measurement 0
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 0 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking139.png
 ------------------------------
 processing frame #140
@@ -2898,19 +2892,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
-update track 14 with lidar measurement 2
+update track 15 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking140.png
 ------------------------------
 processing frame #141
@@ -2921,23 +2915,23 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 2
-update track 14 with lidar measurement 0
-creating track no. 17
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-track 17 score = 0.16666666666666666
+update track 15 with lidar measurement 0
+creating track no. 18
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+track 18 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 0 with camera measurement 4
 ---no more associations---
-deleting track no. 17
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+deleting track no. 18
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking141.png
 ------------------------------
 processing frame #142
@@ -2948,19 +2942,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking142.png
 ------------------------------
 processing frame #143
@@ -2971,23 +2965,23 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
-creating track no. 18
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-track 18 score = 0.16666666666666666
+update track 15 with lidar measurement 1
+creating track no. 19
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+track 19 score = 0.16666666666666666 State initialized
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
 ---no more associations---
-deleting track no. 18
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+deleting track no. 19
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking143.png
 ------------------------------
 processing frame #144
@@ -2998,23 +2992,23 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 3
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
-creating track no. 19
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-track 19 score = 0.16666666666666666
+update track 15 with lidar measurement 1
+creating track no. 20
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+track 20 score = 0.16666666666666666 State initialized
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
 ---no more associations---
-deleting track no. 19
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+deleting track no. 20
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking144.png
 ------------------------------
 processing frame #145
@@ -3025,23 +3019,23 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 3
-update track 14 with lidar measurement 1
-creating track no. 20
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-track 20 score = 0.16666666666666666
+update track 15 with lidar measurement 1
+creating track no. 21
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+track 21 score = 0.16666666666666666 State initialized
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 ---no more associations---
-deleting track no. 20
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+deleting track no. 21
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking145.png
 ------------------------------
 processing frame #146
@@ -3052,19 +3046,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking146.png
 ------------------------------
 processing frame #147
@@ -3075,19 +3069,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 0 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking147.png
 ------------------------------
 processing frame #148
@@ -3098,19 +3092,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking148.png
 ------------------------------
 processing frame #149
@@ -3121,19 +3115,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking149.png
 ------------------------------
 processing frame #150
@@ -3144,19 +3138,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 1
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking150.png
 ------------------------------
 processing frame #151
@@ -3167,19 +3161,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 2
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking151.png
 ------------------------------
 processing frame #152
@@ -3190,19 +3184,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 0
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking152.png
 ------------------------------
 processing frame #153
@@ -3213,19 +3207,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 1
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 0 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking153.png
 ------------------------------
 processing frame #154
@@ -3236,19 +3230,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 0
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking154.png
 ------------------------------
 processing frame #155
@@ -3259,19 +3253,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 5
 update track 0 with camera measurement 4
 update track 1 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking155.png
 ------------------------------
 processing frame #156
@@ -3282,19 +3276,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 0
 update track 0 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking156.png
 ------------------------------
 processing frame #157
@@ -3305,19 +3299,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 2
-update track 14 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 5
+update track 15 with lidar measurement 0
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking157.png
 ------------------------------
 processing frame #158
@@ -3328,19 +3322,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 0
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 0 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking158.png
 ------------------------------
 processing frame #159
@@ -3351,19 +3345,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 5
 update track 0 with camera measurement 4
 update track 1 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking159.png
 ------------------------------
 processing frame #160
@@ -3374,19 +3368,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking160.png
 ------------------------------
 processing frame #161
@@ -3397,19 +3391,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 1
-update track 14 with lidar measurement 0
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking161.png
 ------------------------------
 processing frame #162
@@ -3420,19 +3414,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 2
-update track 14 with lidar measurement 0
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 1 with camera measurement 7
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking162.png
 ------------------------------
 processing frame #163
@@ -3443,19 +3437,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 1
-update track 14 with lidar measurement 0
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking163.png
 ------------------------------
 processing frame #164
@@ -3466,19 +3460,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking164.png
 ------------------------------
 processing frame #165
@@ -3489,19 +3483,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 1
-update track 14 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 0
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 5
 update track 1 with camera measurement 7
-update track 14 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking165.png
 ------------------------------
 processing frame #166
@@ -3512,19 +3506,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking166.png
 ------------------------------
 processing frame #167
@@ -3535,19 +3529,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 0
+update track 15 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 5
 update track 1 with camera measurement 7
-update track 14 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking167.png
 ------------------------------
 processing frame #168
@@ -3558,19 +3552,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 1
-update track 14 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 6
+update track 15 with lidar measurement 0
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
 update track 1 with camera measurement 7
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking168.png
 ------------------------------
 processing frame #169
@@ -3581,19 +3575,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 2
-update track 14 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 0
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking169.png
 ------------------------------
 processing frame #170
@@ -3604,19 +3598,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 6
 update track 1 with camera measurement 7
 ---no more associations---
-track 0 score = 0.8333333333333334
-track 1 score = 1
-track 14 score = 1
+track 0 score = 0.8333333333333334 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking170.png
 ------------------------------
 processing frame #171
@@ -3627,19 +3621,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 2
 update track 1 with lidar measurement 1
-update track 14 with lidar measurement 0
-track 0 score = 1.0
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 0
+track 0 score = 1.0 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking171.png
 ------------------------------
 processing frame #172
@@ -3650,19 +3644,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 1
-update track 14 with lidar measurement 0
+update track 15 with lidar measurement 0
 update track 0 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 1 with camera measurement 7
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking172.png
 ------------------------------
 processing frame #173
@@ -3673,19 +3667,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 6
+update track 15 with lidar measurement 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
 ---no more associations---
-track 0 score = 1
-track 1 score = 0.8333333333333334
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 0.8333333333333334 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking173.png
 ------------------------------
 processing frame #174
@@ -3696,19 +3690,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 1
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1.0
-track 14 score = 1
-update track 14 with camera measurement 6
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1.0 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
 update track 1 with camera measurement 7
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking174.png
 ------------------------------
 processing frame #175
@@ -3719,19 +3713,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 2
+predict track 15
+update track 15 with lidar measurement 2
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 1 with camera measurement 7
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking175.png
 ------------------------------
 processing frame #176
@@ -3742,19 +3736,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 1
 update track 0 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
 update track 1 with camera measurement 7
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking176.png
 ------------------------------
 processing frame #177
@@ -3765,19 +3759,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 2
-update track 14 with lidar measurement 0
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 1 with camera measurement 7
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking177.png
 ------------------------------
 processing frame #178
@@ -3788,19 +3782,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking178.png
 ------------------------------
 processing frame #179
@@ -3811,19 +3805,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 2
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking179.png
 ------------------------------
 processing frame #180
@@ -3834,19 +3828,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 2
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 1 with camera measurement 7
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking180.png
 ------------------------------
 processing frame #181
@@ -3857,19 +3851,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 1
-update track 14 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 2
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking181.png
 ------------------------------
 processing frame #182
@@ -3880,19 +3874,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking182.png
 ------------------------------
 processing frame #183
@@ -3903,19 +3897,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 0
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 ---no more associations---
-track 0 score = 1
-track 1 score = 0.8333333333333334
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 0.8333333333333334 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking183.png
 ------------------------------
 processing frame #184
@@ -3926,19 +3920,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 2
 update track 1 with lidar measurement 1
-update track 14 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1.0
-track 14 score = 1
+update track 15 with lidar measurement 0
+track 0 score = 1 State confirmed
+track 1 score = 1.0 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking184.png
 ------------------------------
 processing frame #185
@@ -3949,19 +3943,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with lidar measurement 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 1 with camera measurement 7
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking185.png
 ------------------------------
 processing frame #186
@@ -3972,19 +3966,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 5
 update track 1 with camera measurement 7
-update track 14 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking186.png
 ------------------------------
 processing frame #187
@@ -3995,19 +3989,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking187.png
 ------------------------------
 processing frame #188
@@ -4018,19 +4012,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 1 with lidar measurement 2
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
-update track 14 with camera measurement 6
+update track 15 with camera measurement 6
 update track 0 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking188.png
 ------------------------------
 processing frame #189
@@ -4041,19 +4035,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 1 with lidar measurement 2
-update track 14 with lidar measurement 0
+update track 15 with lidar measurement 0
 update track 0 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 7
 update track 0 with camera measurement 5
-update track 14 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 6
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking189.png
 ------------------------------
 processing frame #190
@@ -4064,19 +4058,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 0
+predict track 15
+update track 15 with lidar measurement 0
 update track 0 with lidar measurement 1
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking190.png
 ------------------------------
 processing frame #191
@@ -4087,19 +4081,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking191.png
 ------------------------------
 processing frame #192
@@ -4110,19 +4104,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 1
-update track 14 with lidar measurement 2
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking192.png
 ------------------------------
 processing frame #193
@@ -4133,19 +4127,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 0 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking193.png
 ------------------------------
 processing frame #194
@@ -4156,19 +4150,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
-update track 14 with lidar measurement 1
+predict track 15
+update track 15 with lidar measurement 1
 update track 0 with lidar measurement 0
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
 update track 1 with camera measurement 6
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking194.png
 ------------------------------
 processing frame #195
@@ -4179,19 +4173,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 2
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 1
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking195.png
 ------------------------------
 processing frame #196
@@ -4202,19 +4196,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 0
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 2
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+update track 15 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking196.png
 ------------------------------
 processing frame #197
@@ -4225,19 +4219,19 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 1
-update track 14 with lidar measurement 2
+update track 15 with lidar measurement 2
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
-update track 14 with camera measurement 5
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
 update track 0 with camera measurement 4
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking197.png
 ------------------------------
 processing frame #198
@@ -4248,19 +4242,21 @@ loading object labels and validation from result file
 loading detection performance measures from file
 predict track 0
 predict track 1
-predict track 14
+predict track 15
 update track 0 with lidar measurement 2
-update track 14 with lidar measurement 1
+update track 15 with lidar measurement 1
 update track 1 with lidar measurement 0
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 update track 0 with camera measurement 4
-update track 14 with camera measurement 5
+update track 15 with camera measurement 5
 update track 1 with camera measurement 6
-track 0 score = 1
-track 1 score = 1
-track 14 score = 1
+track 0 score = 1 State confirmed
+track 1 score = 1 State confirmed
+track 15 score = 1 State confirmed
 Saving frame C:\objectDetProject\results\frameImages\tracking198.png
 StopIteration has been raised
 
+
+Process finished with exit code 0
