@@ -88,7 +88,9 @@ The results is shown below as an image of the RMSE values and as a video file be
 
 The video is shown as a icon below. Due to size restrictions it cannot be displayed. Please click the icon and download to view it.
 
-<img src="results/StepFour_my_tracking_results.avi"/>
+The file name is /results/Step_Four_no_false_pos_my_tracking_results.avi and the link below:
+
+<img src="results/Step_Four_no_false_pos_my_tracking_results.avi"/>
 
 As shown in the 'AVI' file the Lidar false positives were removed with sensor fusion.
 
