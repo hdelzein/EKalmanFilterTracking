@@ -125,17 +125,17 @@ Below is the same frame 10 as shown above where the false positive track is not 
 
 
 
-### Comparison Betweeb RMSE for Step Three and Step Four
+### Comparison Between RMSE for Step Three and Step Four
 
 With sensor fusion as the RMSE figures above shows the tracked values is closer to the true values when Camera is fused with Lidar compared
 to when Lidar is used alone.
 
 ## Sensor Fusion with Camera and Lidar versus Lidar alone
 
-In theory the sesnor fusion estimatre the position and velocity of tracked objects closer to the true value. Also it contribute to
+In theory the sesnor fusion estimate the position and velocity of tracked objects closer to the true value. Also it contribute to
 eliminating false positive and false negtive.
 
-In practice this was also proven in this project. As the image RMSE values from camera and Lidar fused togther from step 4 shwon 
+In practice this was also proven in this project. As the image RMSE values from camera and Lidar fused togther from step 4 shown 
 above is smaller tham the RMSE value from Lidar only shown above in step 3. 
 Also the false positives were eliminated completey as the AVI file from step 4 shows compared to step 3. Also the image and trace of 
 tracks in frame 10 shown above in step 3 and step 4 display how the false psoitives where eliminated
