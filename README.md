@@ -19,10 +19,22 @@ hx = H*x.
 
 ### Step Two. Implement the Tracking Module
 
-The implementation of the file student\trackingmanagement.py functions followed the instructions from the lectures and the template
+The implementation of the functions in the  student\trackingmanagement.py file followed the instructions from the lectures and the template
 from Lesson-4-MTT file initialization.py.
 The functions '__init__' in the class 'Track' and the function 'manage_tracks' and 'handle_updated_track' successfully were created and 
 it generated the following outcome for the RMSE graph:
 
 <img src="results/stepTwo_RMSE.png"/>
 
+### Step Three. Implement the Association Module
+
+The implementation of the file student\association.py functions followed the lectures and the excercise homework as a template:
+
+The function 'associate' used the 'associate' function in lesson-4-MTT as a template
+The function 'MHD','gating' and 'get_closest_track_and_meas' used the equivalent functions in exercise lesson-4-MTT as a template.
+
+The results is shown below as an image of the RMSE values and as a video file below:
+
+
+<img src="results/StepThree_RMSE.png"/>
+<img src="results/Step_Three_my_tracking_results.avi"/>
