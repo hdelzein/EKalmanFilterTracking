@@ -71,6 +71,10 @@ The image below Shows the frame number 10 where a new track created and shown in
 
 <img src="results/StepThree_tracking010.png"/>
 
+The file name is /results/Step_num_three_my_tracking_results.avi and the link below:
+
+<img src="results/Step_num_three_my_tracking_results.avi"/>
+
 Lidar by itself as the video shows generated a significant number of false positives
 
 
@@ -88,7 +92,7 @@ The results is shown below as an image of the RMSE values and as a video file be
 
 The video is shown as a icon below. Due to size restrictions it cannot be displayed. Please click the icon and download to view it.
 
-The file name is /results/Step_Four_no_false_pos_my_tracking_results.avi and the link below:
+The file name is /results/Step_num_four_no_false_pos_my_tracking_results.avi and the link below:
 
 <img src="results/Step_Four_no_false_pos_my_tracking_results.avi"/>
 
