@@ -94,7 +94,7 @@ The video is shown as a icon below. Due to size restrictions it cannot be displa
 
 The file name is /results/Step_num_four_no_false_pos_my_tracking_results.avi and the link below:
 
-<img src="results/Step_Four_no_false_pos_my_tracking_results.avi"/>
+<img src="results/Step_num_four_no_false_pos_my_tracking_results.avi"/>
 
 As shown in the 'AVI' file the Lidar false positives were removed with sensor fusion.
 
