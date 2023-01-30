@@ -73,9 +73,10 @@ The image below Shows the frame number 10 where a new track created and shown in
 
 The file name is /results/Step_num_three_my_tracking_results.zip and /results/Step_num_three_my_tracking_results.avi and the link below:
 
+
 <img src="results/Step_num_three_my_tracking_results.avi"/>
 
-Lidar by itself as the video shows generated a significant number of false positives
+The  Lidar by itself as the video shows generated a significant number of false positives
 
 
 
